@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'DynaPuff', cursive;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.resultado {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 550px;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button {
+    margin-top: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ccc;
+    transition: transform .5s;
+}
+
+button:hover {
+    transform: scale(1.2);
+    background-color: #fff;
+}
+
+button:active {
+    transform: scale(0.9);
+    background-color: #fff;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: none;
+    object-fit: cover;
+    align-items: center;
+    box-shadow: 5px 8px 15px #fff;
+}
+
+#frase {
+    text-align: justify;
+    text-indent: 20px;
+    padding: 15px;
+    margin: 0 25px;
+    width: 500px;
+    font-size: 20px;
+}
+
+.footer {
+    margin-top: 60px;
+    margin-left: 455px;
+    position: fixed;
+}
+footer p{
+    text-align: center;
+    line-height: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    margin-top: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ccc;
+}
+
+a:hover {
+    background-color: #fff;
+}
