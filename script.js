@@ -20,7 +20,7 @@ function escolhaSigno() {
             texto = "Emotivos e sensíveis, quem tem sol no signo de Câncer costuma ter uma forte conexão com as lembranças do passado, que podem contribuir para posturas muito sentimentais ou até melancólicas. Cancerianas e cancerianos podem ser muito apegados, mas costumam ter um cuidado ímpar com todas as pessoas que amam. Tendem a buscar segurança e proteção, e isso pode se demonstrar com comportamentos no dia a dia que não oferecem grandes riscos."
             img.src = 'https://content-media.astrologialuzesombra.com.br/wp-content/uploads/2021/10/02185511/Cancer.jpg'
             break;
-        case 'Leaõ':
+        case 'Leão':
             texto = "Com enorme coração e de sangue quente, os leoninos exalam carisma e generosidade. São pessoas que se sentem responsáveis pelas pessoas que estão ao seu redor e defende-as como um verdadeiro leão. Os nativos do signo podem agir de maneira explosiva e impulsiva, mas sabem perdoar e dificilmente guardam rancor."
             img.src = 'https://content-media.astrologialuzesombra.com.br/wp-content/uploads/2021/12/02192750/leao.jpg'
             break;
