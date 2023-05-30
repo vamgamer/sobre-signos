@@ -97,3 +97,53 @@ a {
 a:hover {
     background-color: #fff;
 }
+@media (max-width: 550px){
+    html:active,
+    html:focus {
+        outline: 0 !important;
+        -webkit-tap-highlight-color: transparent;
+    }
+    body{
+        overflow: hidden;
+    }
+    h1, h2, h3{
+        font-size: 16pt;
+    }
+    main{
+        width: 400px;
+    }
+    .resultado{
+        display: flex;
+        flex-direction: column;
+    }
+    #frase {
+        text-align: justify;
+        text-indent: 20px;
+        padding: 15px;
+        margin: 0 25px;
+        width: 350px;
+        font-size: 10pt;
+    }
+    img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: none;
+        object-fit: cover;
+        align-items: center;
+        box-shadow: 5px 8px 15px #fff;
+    }
+    footer p{
+        text-align: center;
+        line-height: 30px;
+    }
+    .footer{
+        margin-top: 25px;
+        margin-left: 100px;
+        text-align: center;
+    }
+    .footer h2, h1{
+        font-size: 10pt;
+        text-align: center;
+    }
+}
